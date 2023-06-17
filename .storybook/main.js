@@ -1,4 +1,3 @@
-/** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
 	stories: [
 		'../src/components/**/*.mdx',
@@ -10,7 +9,7 @@ const config = {
 		'@storybook/addon-interactions',
 	],
 	framework: {
-		name: '@storybook/react-vite',
+		name: '@storybook/react-webpack5',
 		options: {},
 	},
 	docs: {

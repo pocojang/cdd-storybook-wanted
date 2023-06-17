@@ -25,7 +25,6 @@
 		"@storybook/addon-links": "^7.0.21",
 		"@storybook/blocks": "^7.0.21",
 		"@storybook/react": "^7.0.21",
-		"@storybook/react-vite": "^7.0.21",
 		"@storybook/testing-library": "^0.0.14-next.2",
 		"esbuild": "^0.18.4",
 		"prop-types": "^15.8.1",
@@ -36,6 +35,7 @@
 		"storybook": "^7.0.21"
 	},
 	"dependencies": {
+		"@storybook/react-webpack5": "^7.0.21",
 		"styled-components": "6.0.0-rc.3"
 	},
 	"peerDependencies": {
