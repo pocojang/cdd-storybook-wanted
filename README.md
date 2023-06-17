@@ -36,7 +36,7 @@ $ pnpm i cdd-storybook-wanted
 // App.jsx
 import { Button } from 'cdd-storybook-wanted';
 
-const App () => {
+const App = () => {
   return (
     <Button label="안녕하세요" color="#fff" backgroundColor="#000" />
   )
